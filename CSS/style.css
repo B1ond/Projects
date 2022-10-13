@@ -1,0 +1,107 @@
+/* orbitron-regular - latin */
+@font-face {
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+    url('../fonts/orbitron-v25-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/orbitron-v25-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    }
+    html{
+    box-sizing: border-box;
+    }
+    *, *::before, *::after{
+    box-sizing: inherit;
+    }
+    
+    body{
+    background-image: linear-gradient(
+    to right,
+    #000 0%,
+    #000 55%,
+    #57B8FF 50%,
+    #57B8FF 100%
+    );
+    
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: normal;
+    color: white;
+    margin: 0;
+    }
+    
+    .wrapper{
+    max-width: 1320px;
+    margin: 0 auto;
+    }
+    
+    /* style header start */
+    
+    .header{
+    background-size: cover;
+    }
+    
+    .header_logo{
+    position: absolute;
+    top: 31.19px;
+    left: 61.26px;
+    }
+    
+    .menu_list{
+    display: flex;
+    padding-top: 28px;
+    justify-content: center;
+    list-style-type: none;
+    }
+    
+    .menu_item {
+    margin-right: 60px;
+    }
+    
+    .menu_link{
+    font-size: 16px;
+    line-height: 26px;
+    color: white;
+    text-decoration: none;
+    }
+    
+    .menu li a:hover, .menu li a:focus, .menu li a:active{
+    color: #FAC422;
+    }
+    
+    .buy{
+    position: absolute;
+    top: 35px;
+    right: 280px;
+    }
+    
+    
+    .amount{
+    background-color: #fff;
+    color: #141820;
+    padding: 6px 6px;
+    font-size: 11px;
+    border-radius: 9px;
+    line-height: 8px;
+    position: absolute;
+    top: -9px;
+    right: -20px;
+    }
+    
+    .contact{
+    border: 1px solid #FFFFFF;
+    text-decoration: none;
+    padding: 16px 31px;
+    font-size: 18px;
+    position: absolute;
+    top: 20px;
+    right: 60px;
+    }
+    
+    .contact a{
+    color: #fff;
+    text-decoration: none;
+    }
+    /* style header end */
