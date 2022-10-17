@@ -109,6 +109,28 @@
 
     /* style intro start */
 
+    .social_list{
+        display: flex;
+        position: absolute;
+        list-style-type: none;
+        align-items: center;
+        writing-mode: tb-rl;
+        transform: rotate(180deg);
+        font-size: 11px;
+        left: 250px;
+        top: 450px;
+    }
+    
+    .social_list a{
+        text-decoration: none;
+        color: #80858F;
+        padding-top: 50px;
+    }
+
+    .social_list li a:hover, .social_list li a:focus, .social_list li a:active{
+        color: #FAC422;
+    }
+
     .intro{
         height: 100vh;
         background-size: cover;
